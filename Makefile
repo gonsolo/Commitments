@@ -8,9 +8,11 @@ $(TRY).pdf $(TRY).midi: $(TRY).ly
 c: clean
 clean:
 	rm -f $(TRY).pdf $(TRY).midi
-
 e: edit
 edit:
 	vi $(TRY).ly
+l: listen
+listen: $(TRY).midi
+	timidity -in $<
 
-.PHONY: all c clean e edit view
+.PHONY: all c clean e edit view l listen
