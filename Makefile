@@ -1,4 +1,4 @@
-TRY = TryALittleTenderness_Trompete_Bb
+TRY = TryALittleTenderness
 
 all: view
 view: $(TRY).pdf
