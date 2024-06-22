@@ -10,7 +10,7 @@
 
 \score {
         \new StaffGroup <<
-                \new Staff = "clarinet" {
+                \new Staff = "trumpet" {
                         \tempo 4 = 100
                         \relative c'' {
                                 \set Staff.instrumentName = \markup { Trompete (B\flat) }

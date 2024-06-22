@@ -1,18 +1,19 @@
-TRY = TryALittleTenderness
+#SONG = TryALittleTenderness
+SONG = InTheMidnightHour
 
 all: view
-view: $(TRY).pdf
+view: $(SONG).pdf
 	evince $<
-$(TRY).pdf $(TRY).midi: $(TRY).ly
+$(SONG).pdf $(SONG).midi: $(SONG).ly
 	lilypond $<
 c: clean
 clean:
-	rm -f $(TRY).pdf $(TRY).midi
+	rm -f $(SONG).pdf $(SONG).midi
 e: edit
 edit:
-	vi $(TRY).ly
+	vi $(SONG).ly
 l: listen
-listen: $(TRY).midi
+listen: $(SONG).midi
 	timidity -in $<
 
 .PHONY: all c clean e edit view l listen
