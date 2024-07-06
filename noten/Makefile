@@ -1,5 +1,5 @@
-SONG = TheDarkEndOfTheStreet
-SONGS = InTheMidnightHour.pdf TheDarkEndOfTheStreet.pdf TryALittleTenderness.pdf
+SONG = DestinationAnywhere
+SONGS = InTheMidnightHour.pdf $(SONG).pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 
 #all: $(SONGS)
 all: view
@@ -17,5 +17,6 @@ edit:
 l: listen
 listen: $(SONG).midi
 	timidity -in $<
+%.midi: %.ly
 
 .PHONY: all c clean e edit view l listen v view
