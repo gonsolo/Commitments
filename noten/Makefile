@@ -1,5 +1,5 @@
-SONG = DestinationAnywhere
-SONGS = InTheMidnightHour.pdf $(SONG).pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
+SONG = INeverLovedAMan
+SONGS = DestinationAnywhere.pdf InTheMidnightHour.pdf $(SONG).pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 
 #all: $(SONGS)
 all: view
