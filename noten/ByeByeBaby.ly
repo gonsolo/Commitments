@@ -10,23 +10,74 @@
 
 TrompetenNoten = {
         \compressEmptyMeasures
-        R1*26 | r2 r4 g'' \glissando | g' g, g g  \bar "||"
-        c8 r8 r2 r8 b8 | c r r2 r8 bes |
-        b r r2 r8 bes | b r g4 bes b |
-        c8 r8 r2 r8 b | c r4 c8 r2 |
+        R1*26 | r2 r4 g'' \glissando | g' g, bes b  \bar "||"
+        c8 r4 c8 r4 r8 b8 | c r4 c8 r4 r8 bes |
+        b r4 b8 r4 r8 bes | b r g4 bes b |
+        c8 r4 c8 r4 r8 b | c r4 c8 r2 |
         des4 des des des | d8 r8 r2. |
 
-        R1*12 | r2 r4 g, \glissando | g' g, g g  \bar "||"
+        R1*12 | r2 r4 g, \glissando | g' g, bes b  \bar "||"
+        c8 r4 c8 r4 r8 b8 | c r4 c8 r4 r8 bes |
+        b r4 b8 r4 r8 bes | b r g4 bes b |
+        c8 r4 c8 r4 r8 b | c r4 c8 r2 |
+        des4 des des des | d8 r8 r2. \bar "||"
+
+        R1*12
+        R1*6
+        R1*6
+        R1*6
+        R1*6
+        \bar "||"
+
+        r2^"ritenuto" r4 g
 }
 
 SaxNoten = {
         \compressEmptyMeasures
-        R1*28 \bar "||"
+        R1*26 | r1 | b,4 b d es \bar "||"
+        e8 r4 e8 r4 r8 es8 | e r4 e8 r4 r8 ges |
+        g r4 g8 r4 r8 ges | g r g4 d es |
+        e8 r4 e8 r4 r8 es | e r4 e8 r2 |
+        a4 a a a | ges8 r8 r2. |
+
+        R1*12 | r1 | b,4 b d es \bar "||"
+        e8 r4 e8 r4 r8 es8 | e r4 e8 r4 r8 ges |
+        g r4 g8 r4 r8 ges | g r g4 d es |
+        e8 r4 e8 r4 r8 es | e r4 e8 r2 |
+        a4 a a a | ges8 r8 r2. |
+
+        R1*12
+        R1*6
+        R1*6
+        R1*6
+        R1*6
+        \bar "||"
+
+        r2 r4 b
 }
 
 PosaunenNoten = {
         \compressEmptyMeasures
-        R1*28 \bar "||"
+        R1*26 | r2 r4 g, \glissando | g' g, bes b  \bar "||"
+        c8 r4 c8 r4 r8 b8 | c r4 c8 r4 r8 bes |
+        b r4 b8 r4 r8 bes | b r g4 bes b |
+        c8 r4 c8 r4 r8 b | c r4 c8 r2 |
+        des4 des des des | d8 r8 r2. |
+
+        R1*12 | r2 r4 g, \glissando | g' g, bes b  \bar "||"
+        c8 r4 c8 r4 r8 b8 | c r4 c8 r4 r8 bes |
+        b r4 b8 r4 r8 bes | b r g4 bes b |
+        c8 r4 c8 r4 r8 b | c r4 c8 r2 |
+        des4 des des des | d8 r8 r2. \bar "||"
+
+        R1*12
+        R1*6
+        R1*6
+        R1*6
+        R1*6
+        \bar "||"
+
+        r2 r4 g
 }
 
 \score {
