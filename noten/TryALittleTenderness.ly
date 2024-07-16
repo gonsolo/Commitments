@@ -30,7 +30,7 @@ SaxNoten =
 \score {
         \new StaffGroup <<
                 \new Staff = "trumpet" {
-                        \tempo 4 = 100
+                        \tempo 4 = 98
                                 \set Staff.instrumentName = \markup { Trompete (B\flat) }
                                 \set Staff.midiInstrument = "trumpet"
                                 \transposition bes

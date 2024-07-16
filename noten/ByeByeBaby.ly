@@ -83,7 +83,7 @@ PosaunenNoten = {
 \score {
         \new StaffGroup <<
                 \new Staff = "trumpet" {
-                        \tempo 4 = 120
+                        \tempo 4 = 124
                         \relative c'' {
                                 \set Staff.instrumentName = \markup { Trompete (B\flat) }
                                 \set Staff.midiInstrument = "trumpet"
