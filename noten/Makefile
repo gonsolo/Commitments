@@ -1,14 +1,15 @@
 MAKEFLAGS += -j8
 
-SONG = ThatsTheWayLoveIs
-SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf $(SONG).pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
+SONG = MustangSally
+SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf $(SONG).pdf ThatsTheWayLoveIs.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 ALL = Commitments.pdf
 
-all: $(ALL)
-$(ALL): $(SONGS)
-	pdfunite $^ $@
+all: view
+#all: $(ALL)
+#$(ALL): $(SONGS)
+#	pdfunite $^ $@
 #all: $(SONGS)
-#all: view
+
 v: view
 view: $(SONG).pdf
 	evince $<
