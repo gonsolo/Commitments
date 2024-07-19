@@ -57,14 +57,14 @@ SaxNoten = {
         bes2 c8 c | bes2. |
 
         R2.*16
-        d2.~ | d | f | r
+        d,2.~ | d | f | r
         r4 g8 r8 r4 |
         r4 g8 r8 r4 |
         r4 g8 r8 r4 |
         r2. | r2. | r2. |
         \bar "||"
 
-        es,2. | r4 ges g |
+        es2. | r4 ges g |
         as2. | r | as | r |
         r4 es8 es r4 | es des es |
         bes2.~ | bes2. | bes~ | bes |
