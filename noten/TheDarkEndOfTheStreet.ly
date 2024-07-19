@@ -11,6 +11,7 @@
 TrompetenNoten = {
         \compressEmptyMeasures
         R1*12 \bar "||"
+        R1*12 \bar "||"
         b''1 | a | g2 c | b c | b1 | r1 | r1 | r1 \bar "||"
         r1 | r1 | r1 | r1 | r1 | r1 |
         cis2 dis | bis cis | bis1 |
@@ -20,6 +21,7 @@ TrompetenNoten = {
 SaxNoten = {
         \compressEmptyMeasures
         R1*12 \bar "||"
+        R1*12 \bar "||"
         g1 | fis | e2 e | g e | g1 | r1 | r1 | r1 \bar "||"
         r1 | r1 | r1 | r1 | r1 | r1 |
         f2 g | gis f | gis1 |
@@ -28,6 +30,7 @@ SaxNoten = {
 
 PosaunenNoten = {
         \compressEmptyMeasures
+        R1*12 \bar "||"
         R1*12 \bar "||"
         d1 | cis | b2 c | b c | b1 | r1 | r1 | r1 \bar "||"
         r1 | r1 | r1 | r1 | r1 | r1 |
