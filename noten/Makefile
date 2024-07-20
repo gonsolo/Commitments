@@ -1,6 +1,6 @@
 MAKEFLAGS += -j8
 
-SONG = TryALittleTenderness
+SONG = InTheMidnightHour
 SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf MustangSally.pdf ThatsTheWayLoveIs.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 ALL = Commitments.pdf
 
