@@ -16,6 +16,7 @@ TrompetenNoten = {
         R1*2 |
         d4. c8~ c4. bes8~ | bes2 c8 c4 c8~ | c8 b8~ b2. | 
         \bar "||"
+
         R1*6
         a1 d2 cis |
         \bar "||"
@@ -23,8 +24,23 @@ TrompetenNoten = {
         R1*2 |
         d4. c8~ c4. bes8~ | bes2 c8 c4 c8~ | c8 b8~ b2. | 
         \bar "||"
+
         R1*6 |
+        \time 2/4 r2 \time 4/4
         R1*2 |
+        R1*6 d2 d c4. d8~ d2 |
+
+        a1 a a a |
+        R1*2 |
+        d4. c8~ c4. bes8~ | bes2 c8 c4 c8~ | c8 b8~ b2. | 
+        \bar "||"
+
+        R1*8 |
+        \repeat volta 2 { a1 a a a }
+        \repeat volta 2 { d f d f }
+        \bar "||"
+
+        d4. d8 c8 d,4 g8~ | g1
 }
 
 SaxNoten = {
@@ -35,15 +51,32 @@ SaxNoten = {
         R1*2
         bes4. a8~ a4. g8~ | g2 a8 a4 a8~ | a8 g8~ g2. | 
         \bar "||"
+
         R1*6
         f1 a2 a |
         \bar "||"
+
         f1 f f f |
         R1*2
         bes4. a8~ a4. g8~ | g2 a8 a4 a8~ | a8 g8~ g2. | 
         \bar "||"
+
         R1*6 |
+        \time 2/4 r2 \time 4/4
         R1*2 |
+        R1*6 bes2 bes a4. g8~ g2 |
+
+        f1 f f f |
+        R1*2
+        bes4. a8~ a4. g8~ | g2 a8 a4 a8~ | a8 g8~ g2. | 
+        \bar "||"
+
+        R1*8 |
+        \repeat volta 2 { f1 f f f }
+        \repeat volta 2 { f1 f f f }
+        \bar "||"
+
+        d4. d8 c8 d,4 g8~ | g1
 }
 
 PosaunenNoten = {
@@ -54,15 +87,32 @@ PosaunenNoten = {
         R1*2
         bes4. a8~ a4. g8~ | g2 a8 a4 a8~ | a8 g8~ g2. | 
         \bar "||"
+
         R1*6
         f1 a2 a |
         \bar "||"
+
         c1 b c b |
         R1*2
         bes4. a8~ a4. g8~ | g2 a8 a4 a8~ | a8 g8~ g2. | 
         \bar "||"
+
         R1*6 |
+        \time 2/4 r2 \time 4/4
         R1*2 |
+        R1*6 f'2 f f4. e8~ e2 |
+
+        c1 b c b |
+        R1*2
+        bes4. a8~ a4. g8~ | g2 a8 a4 a8~ | a8 g8~ g2. | 
+        \bar "||"
+
+        R1*8 |
+        \repeat volta 2 { c1 b c b }
+        \repeat volta 2 { c1 b c b }
+        \bar "||"
+
+        d4. d8 c8 d,4 g8~ | g1
 }
 
 \score {

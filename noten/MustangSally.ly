@@ -12,11 +12,20 @@ TrompetenNoten = {
         \compressEmptyMeasures
         r1 | r1 | r1 | r1 \bar "||"
 
+        r1 | r1 | r1 | r1 |
+        r1 | r1 | r1 | r1 |
+        r1 | r1 | r1 | r1 |
+        r1 | r1 | r1 | r1 |
 }
 
 SaxNoten = {
         \compressEmptyMeasures
         r1 | r1 | r1 | r1 \bar "||"
+
+        r1 | r1 | r1 | r1 |
+        r1 | r1 | r1 | r1 |
+        r1 | r1 | r1 | r1 |
+        r1 | r1 | r1 | r1 |
 }
 
 PosaunenNoten = {
