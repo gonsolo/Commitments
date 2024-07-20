@@ -1,8 +1,7 @@
 MAKEFLAGS += -j8
 
-#SONG = MustangSally
-SONG = DestinationAnywhere
-SONGS = ByeByeBaby.pdf $(SONG).pdf INeverLovedAMan.pdf InTheMidnightHour.pdf MustangSally.pdf ThatsTheWayLoveIs.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
+SONG = TryALittleTenderness
+SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf MustangSally.pdf ThatsTheWayLoveIs.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 ALL = Commitments.pdf
 
 all: view
