@@ -4,10 +4,10 @@ SONG = InTheMidnightHour
 SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf MustangSally.pdf ThatsTheWayLoveIs.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 ALL = Commitments.pdf
 
-all: view
-#all: $(ALL)
-#$(ALL): $(SONGS)
-#	pdfunite $^ $@
+#all: view
+all: $(ALL)
+$(ALL): $(SONGS)
+	pdfunite $^ $@
 #all: $(SONGS)
 
 v: view
