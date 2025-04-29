@@ -1,11 +1,13 @@
 MAKEFLAGS += -j8
 
-SONG = InTheMidnightHour
-SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf MustangSally.pdf ThatsTheWayLoveIs.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
+SONG = TooManyFishInTheSea
+SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf \
+	MustangSally.pdf ThatsTheWayLoveIs.pdf TooManyFishInTheSea.pdf TryALittleTenderness.pdf \
+	TheDarkEndOfTheStreet.pdf
 ALL = Commitments.pdf
 
-#all: view
-all: $(ALL)
+all: view
+#all: $(ALL)
 $(ALL): $(SONGS)
 	pdfunite $^ $@
 #all: $(SONGS)
