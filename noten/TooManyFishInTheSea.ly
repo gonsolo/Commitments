@@ -9,164 +9,185 @@
 }
 
 TrompetenNoten =
-\relative c''' {
+{
 	\partial 4 r4 | r8 g'4. f4-. es-. | c4-. r4 r2 |
 	r1 | r1 | r1 | r1 | r1 |
-	<g' b,>4->-. <g b,>->-. <g b,>->-. <g b,>->-. | <g b,>->-. r r r8 b,,( \bar "||"
+	g'4->-. g->-. g->-. g->-. | g->-. r r2 \bar "||"
 
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r8 c'4. d4-. e-. |
+	r4 c,8 r8 r2 | r1 |
+	r4 c8 r8 r2 | r1 |
+	r4 c8 r8 r2 | r1 |
+	r4 c8 r8 r2 | r8 c4. d4-. e-. |
 
 	f-. r4 r2 | r1 |
 	r1 | r1 | r1 | r1
-	<g b,>4->-. <g b,>->-. <g b,>->-. <g b,>->-. | <g b,>->-. r r r8 b,,( \bar "||"
+	g4->-. g->-. g->-. g->-. | g->-. r r r8 b,,( \bar "||"
+
 	c2) r2 | r2 r4 r8 b(
 	c2) r2 | 
 	r1 | r1 | r1 | r1
 
-	r8 g''4. f4-. es-. | c1( | c2.) r8 b,( |
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r8 c'4. d4-. e-. |
+	r8 g''4. f4-. es-. | c2( c4 c8 b | c1) |
+	r1 | r1
+	r4 c8 r8 r2 | r1 |
+	r4 c8 r8 r2 | r1 |
+	r4 c8 r8 r2 | r8 c4. d4-. e-. |
 
 	f-. r4 r2 | r1 |
 	r1 | r1 | r1 | r1
 
-	<g b,>4->-. <g b,>->-. <g b,>->-. <g b,>->-. | <g b,>->-. r r r8 b,,( \bar "||"
+	g4->-. g->-. g->-. g->-. | g->-. r r r8 b,,( \bar "||"
 	c2) r2 | r2 r4 r8 b(
 	c2) r2 | 
 	r1 | r1 | r1 | r1
 
-	r8 g''4. f4-. es-. | c1( | c2.) r8 b,( |
+	r8 g''4. f4-. es-. | c2( c4 c8 b | c1) \bar "||"
 
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r2 r4 r8 b(
-	c2) r2 | r8 c'4. d4-. e-. |
+	r1 | r1
+	r1 | r1
+	r1 | r1
+	r1 | r8 c4. d4-. e-. |
 
 	f-. r4 r2 | r1 |
 	r1 | r1 | r1 | r1
 
-	<g b,>4->-. <g b,>->-. <g b,>->-. <g b,>->-. | <g b,>->-. r r r8 b,,( \bar "||"
+	g4->-. g->-. g->-. g->-. | g->-. r r r8 b,,( \bar "||"
 	c2) r2 | r2 r4 r8 b(
 	c2) r2 | 
 	r1 | r1 | r1 | r1
 
-	r8 g''4. f4-. es-. | c1( | c2.) r8 b,( |
+	r8 g''4. f4-. es-. | c2( c4 c8 b | c1) \bar "||"
 
-	\repeat volta 2 {
-		c2) r2 | r2 r4 r8 b(
-		c2) r2 | r2 r4 r8 b(
-		c2) r2 | r2 r4 r8 b(
-		c2) r2 | r2 r4 r8 b
-	}
+	r1 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
 
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+	r4 c4 r2 | r4 c8 c r4 c4 |
+
+	r4 c4 r2 | r4 c'8 c r4 c4 |
+	r4 c,4 r2 | r4 c'8 c r4 c4 |
+	r4 c,4 r2 | r4 c'8 c r4 c4 |
+	r4 c,4 r2 | 
+
+	r8 g'4. f4-. es-. |
+	r8 ges4. f4-. es-. |
+	r1 |
+	r2 c'4 r4 |
 }
 
 SaxNoten =
-\relative {
-        f2.~ f8 d8~ | d1 | c2.~ c8 bes8~ | bes1 |
-        \compressEmptyMeasures
-        R1*12 \bar "||"
+{
+	\partial 4 r4 | r8 d'4. c4-. bes-. | g4-. r4 r2 |
+	r1 | r1 | r1 | r1 | r1 |
+	b4->-. b->-. b->-. b->-. | b->-. r r2 \bar "||"
 
-        f'1 | es | f | es |
+	r4 g8 r8 r2 | r1 |
+	r4 g8 r8 r2 | r1 |
+	r4 g8 r8 r2 | r1 |
+	r4 g8 r8 r2 | r8 c4. d4-. e-. |
 
-        r1 | r2 as8 g bes, bes~ | bes1 | r1 | r1  \bar "||"
+	f-. r4 r2 | r1 |
+	r1 | r1 | r1 | r1
+	b,4->-. b->-. b->-. b->-. | b->-. r r r8 d,( \bar "||"
 
-        es1~ | es4 r4 as8 g bes, bes~ | bes1 | r1 |
-        es1~ | es4 r4 as8 g bes, bes~ | bes1 | r1 |
-        f'1 | es | f | es |
-        r1 | r2 as8 g bes, bes~ | bes1 | r1 | r1  \bar "||"
+	e2) r2 | r2 r4 r8 d(
+	e2) r2 | 
+	r1 | r1 | r1 | r1 |
 
-        bes'2 as8 as4 g8~ | g2 as8 as4 bes8~ | bes4 as8 f8 as4 f8 es |
-        f2 as8 as4  bes8~ | bes2 as8 as4 g8~ | g2 \tuplet 3/2 {as4 des, des} |
-        es1 | r2 as8 g as g |
-        \repeat volta 2 {
-                es1 | r2 as8 g as g | bes1 | r2 as8 g as g |
-        }
-        es1
+	r8 g'4. f4-. es-. | c2( c4 c8 d | e1) |
+	r1 | r1 |
+	r4 g,8 r8 r2 | r1 |
+	r4 g8 r8 r2 | r1 |
+	r4 g8 r8 r2 | r8 c4. d4-. e-. |
+
+	f-. r4 r2 | r1 |
+	r1 | r1 | r1 | r1
+
+	b,4->-. b->-. b->-. b->-. | b->-. r r r8 d,( \bar "||"
+	e2) r2 | r2 r4 r8 d(
+	e2) r2 | 
+	r1 | r1 | r1 | r1
+
+	r8 g'4. f4-. es-. | c2( c4 c8 d | e1) \bar "||"
+
+	r1^"Solo" | r1
+	r1 | r1
+	r1 | r1
+	r1 | r8 c4. d4-. e-. |
+
+	f-. r4 r2 | r1 |
+	r1 | r1 | r1 | r1
+
+	b,4->-. b->-. b->-. b->-. | b->-. r r r8 d,( \bar "||"
+	e2) r2 | r2 r4 r8 d(
+	e2) r2 | 
+	r1 | r1 | r1 | r1
+
+	r8 g'4. f4-. es-. | c2( c4 c8 d | e1) \bar "||"
+
+	r1 | r4 g,8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | r4 g8 g r4 g4 |
+	r4 g4 r2 | 
+
+	r8 g'4. f4-. es-. |
+	r8 ges4. f4-. es-. |
+	r1 |
+	r2 g4 r4 |
 }
 
-PosaunenNoten =
-\relative {
-        des2.~ des8 bes8~ | bes1 | as2.~ as8 ges8~ | ges1 |
-
-        \compressEmptyMeasures
-
-	r2 r4 des'8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r2 des8 es |
-	es r8 r4 r2 |
-
-	\bar "||"
-
-        bes1 | as | bes | as |
-
-        r1 | r2 as'8 g bes, bes~ | bes1 | r1 | r1  \bar "||"
-
-        es1~ | es4 r4 as8 g bes, bes~ | bes1 | r1 |
-        es1~ | es4 r4 as8 g bes, bes~ | bes1 | r1 |
-
-        bes1 | as | bes | as |
-
-        r1 | r2 as'8 g bes, bes~ | bes1 | r1 | r1  \bar "||"
-
-        bes'2 as8 as4 g8~ | g2 as8 as4 bes8~ | bes4 as8 f8 as4 f8 es |
-        f2 as8 as4  bes8~ | bes2 as8 as4 g8~ | g2 \tuplet 3/2 {as4 des, des} |
-        es1 | r2 r4 r8 des |
-        \repeat volta 2 {
-		es8 r8 f2 r8 des8 |
-		es8 r8 f2 r8 des8 |
-		es8 r8 f2 r8 des8 |
-		es8 r8 f2 r8 des8 |
-        }
-        es1
-}
+PosaunenNoten = \TrompetenNoten
 
 \score {
         \new StaffGroup <<
                 \new Staff = "trumpet" {
-                        \tempo 4 = 120
-                        %\relative c''' {
-                                \set Staff.instrumentName = \markup { Trompete (B\flat) }
-                                \set Staff.midiInstrument = "trumpet"
-                                \transposition bes
-                                \key d \major
-                                \transpose bes c {
-					\TrompetenNoten
-                                }
-                        %}
+                        \tempo 4 = 180
+                        \set Staff.instrumentName = \markup { Trompete (B\flat) }
+                        \set Staff.midiInstrument = "trumpet"
+                        \transposition bes
+                        \key d \major
+                        \transpose bes c { \relative c''' \TrompetenNoten }
                 }
 
-                %\new Staff = "altsax" {
-                %        \set Staff.instrumentName = \markup { Altsaxophon (E\flat) }
-                %        \set Staff.midiInstrument = "alto sax"
-                %        \transposition es
-                %        \key c \major
-                %        \transpose es c'' {
-                %                \SaxNoten
-                %        }
-                %}
+                \new Staff = "tenorsax" {
+                        \set Staff.instrumentName = \markup { Tenorsaxophon (B\flat) }
+                        \set Staff.midiInstrument = "tenor sax"
+                        \transposition bes
+                        \key d \major
+                        \transpose bes c { \relative c'' \SaxNoten }
+                }
 
-                %\new Staff = "posaune" {
-                %        \set Staff.instrumentName = \markup { Posaune (C) }
-                %        \set Staff.midiInstrument = "trombone"
-                %        \key es \major
-                %        \clef bass
-                %        \transpose c c {
-                %                \PosaunenNoten
-                %        }
-                %}
+                \new Staff = "posaune" {
+                        \set Staff.instrumentName = \markup { Posaune (C) }
+                        \set Staff.midiInstrument = "trombone"
+                        \key c \major
+                        \clef bass
+                        \transpose c c { \relative c \PosaunenNoten }
+                }
         >>
 
           \midi {}
