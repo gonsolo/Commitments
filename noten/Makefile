@@ -1,9 +1,9 @@
 MAKEFLAGS += -j8
 
-SONG = TooManyFishInTheSea
-SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf INeverLovedAMan.pdf InTheMidnightHour.pdf \
-	MustangSally.pdf ThatsTheWayLoveIs.pdf TooManyFishInTheSea.pdf TryALittleTenderness.pdf \
-	TheDarkEndOfTheStreet.pdf
+SONG = HardToHandle
+SONGS = ByeByeBaby.pdf DestinationAnywhere.pdf HardToHandle.pdf INeverLovedAMan.pdf \
+	InTheMidnightHour.pdf MustangSally.pdf ThatsTheWayLoveIs.pdf \
+	TooManyFishInTheSea.pdf TryALittleTenderness.pdf TheDarkEndOfTheStreet.pdf
 ALL = Commitments.pdf
 
 all: view
