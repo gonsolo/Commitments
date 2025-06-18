@@ -142,33 +142,33 @@ PosaunenNoten = {
 
 \score {
         \new StaffGroup <<
-                %\new Staff = "trumpet" {
-                %        \tempo 4 = 105
-                %        \relative c'' {
-                %                \set Staff.instrumentName = \markup { Trompete (B\flat) }
-                %                \set Staff.midiInstrument = "trumpet"
-                %                \transposition bes
-                %                \key a \major
-                %                \transpose bes c {
-                %                      \relative g'' {
-                %                              \TrompetenNoten
-                %                      }
-                %                }
-                %        }
-                %}
+                \new Staff = "trumpet" {
+                        \tempo 4 = 105
+                        \relative c'' {
+                                \set Staff.instrumentName = \markup { Trompete (B\flat) }
+                                \set Staff.midiInstrument = "trumpet"
+                                \transposition bes
+                                \key a \major
+                                \transpose bes c {
+                                      \relative g'' {
+                                              \TrompetenNoten
+                                      }
+                                }
+                        }
+                }
 
-                %\new Staff = "altsax" {
-                %        \tempo 4 = 105
-                %        \set Staff.instrumentName = \markup { Altsaxophon (E\flat) }
-                %        \set Staff.midiInstrument = "alto sax"
-                %        \transposition es
-                %        \key e \major
-                %        \transpose es c'' {
-                %                \relative {
-                %                        \SaxNoten
-                %                }
-                %        }
-                %}
+                \new Staff = "altsax" {
+                        \tempo 4 = 105
+                        \set Staff.instrumentName = \markup { Altsaxophon (E\flat) }
+                        \set Staff.midiInstrument = "alto sax"
+                        \transposition es
+                        \key e \major
+                        \transpose es c'' {
+                                \relative {
+                                        \SaxNoten
+                                }
+                        }
+                }
 
                 \new Staff = "posaune" {
                         \set Staff.instrumentName = \markup { Posaune (C) }
