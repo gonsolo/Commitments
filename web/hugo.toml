@@ -1,0 +1,4 @@
+baseURL = 'https://la-commitments.site/'
+languageCode = 'de-de'
+title = 'LA-Commitments'
+theme = 'ananke'
